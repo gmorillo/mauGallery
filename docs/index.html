@@ -3,11 +3,17 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+        <link rel="stylesheet" href="./assets/bootstrap.min.css">
 
-        <title>Gallery!</title>
+        <title>Mau Gallery!</title>
     </head>
     <body>
+        <div class="jumbotron jumbotron-fluid bg-info mb-0">
+            <div class="container py-5 text-light">
+                <h1 class="display-4">Mau Gallery</h1>
+                <p class="lead">A simple images gallery, built with jQuery and bootstrap 4</p>
+            </div>
+        </div>
         <div class="container py-3">
             <div class="gallery" style="display:none;">
                 <img data-gallery-tag="women" class="gallery-item" src="https://images.pexels.com/photos/413727/pexels-photo-413727.jpeg?auto=compress&cs=tinysrgb&h=350" />
@@ -41,11 +47,13 @@
                 <img data-gallery-tag="women" class="gallery-item" src="https://images.pexels.com/photos/247204/pexels-photo-247204.jpeg?auto=compress&cs=tinysrgb&h=350" />
                 <img data-gallery-tag="dogs" class="gallery-item" src="https://images.pexels.com/photos/59523/pexels-photo-59523.jpeg?auto=compress&cs=tinysrgb&h=350" />
             </div>
+            <hr />
+            <i>more to come here...</i>
         </div>
-        
-        <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-        <script src="./gallery.js"></script>
+        <script src="./assets/jquery.min.js"></script>
+        <script src="./assets/popper.min.js"></script>
+        <script src="./assets/bootstrap.min.js"></script>
+        <script src="./assets/mauGallery.min.js"></script>
+        <script src="./assets/scripts.js"></script>
     </body>
 </html>
