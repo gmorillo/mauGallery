@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A simple images gallery built with jQuery and bootstrap4",
   "main": "mauGallery.js",
-  "author":{
+  "author": {
     "name": "Lefteris Psitopoulos",
     "email": "lefteris@thanpa.com",
     "url": "https://thanpa.com"
@@ -11,6 +11,10 @@
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^4.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bakedbird/mauGallery.git"
   },
   "keywords": [
     "mauGallery",
