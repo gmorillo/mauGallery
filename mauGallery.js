@@ -3,8 +3,6 @@
         var options = $.extend($.fn.mauGallery.defaults, options);
         var tagsCollection = [];
         return this.each(function() {
-            var itemsCollection = $(this).children('.gallery-item').length;
-            
             $.fn.mauGallery.methods.createRowWrapper($(this));
             if (options.lightBox) {
                 $.fn.mauGallery.methods.createLightBox($(this), options.lightboxId);
